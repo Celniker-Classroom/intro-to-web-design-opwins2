@@ -1,1 +1,25 @@
+#pic1 {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 40%;
+}
+
+#pic2 {
+  float: left;
+  margin: 0 1em 1em 0;
+  max-width: 40%;
+}
+
+#pic3 {
+  float: right;
+  margin: 0 0 1em 1em;
+  max-width: 40%;
+}
+
+/* Clear floats so footer/other content renders correctly */
+body::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
