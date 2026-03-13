@@ -1,4 +1,18 @@
 
+.img-right {
+  float: right;
+  margin: 0 0 15px 20px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(4, 27, 21, 0.12);
+}
+
+p {
+  overflow: hidden;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -83,15 +97,15 @@ a:hover {
 #pic1 {
   float: right;
   margin: 0 0 1em 1em;
-  max-width: 40%;
+  max-width: 20%;
   border: 2px solid #041b15;
   border-radius: 5px;
 }
 
 #pic2 {
-  float: left;
+  float: right;
   margin: 0 1em 1em 0;
-  max-width: 40%;
+  max-width: 15%;
   border: 2px solid #041b15;
   border-radius: 5px;
 }
@@ -99,7 +113,7 @@ a:hover {
 #pic3 {
   float: right;
   margin: 0 0 1em 1em;
-  max-width: 40%;
+  max-width: 25%;
   border: 2px solid #041b15;
   border-radius: 5px;
 }
