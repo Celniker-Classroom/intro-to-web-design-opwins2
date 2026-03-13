@@ -19,6 +19,27 @@
       <h1>Odin Paterson</h1>
       <h2>"OP"</h2>
 
+      <div id="fun-fact-section">
+        <h3>Fun Fact About Me!</h3>
+        <button id="funFactBtn">Reveal Fun Fact</button>
+        <p id="funFactText" style="display:none;"></p>
+      </div>
+    <script>
+      const facts = [
+        "I intern for the Sports Medicine program at CCA",
+        "I can play the guitar",
+        "I once met a professional volleyball player at the beach.",
+        "I have walked out of the tunnel at my favorite soccer team, Celtic FC's stadium, Celtic Park, before a game.",
+        "I have two younger brothers at PTMS"
+      ];
+      document.getElementById('funFactBtn').onclick = function() {
+        const randomFact = facts[Math.floor(Math.random() * facts.length)];
+        const factText = document.getElementById('funFactText');
+        factText.textContent = randomFact;
+        factText.style.display = 'block';
+      };
+    </script>
+
       <h3>My Roots</h3>
       <p class="highlight">
         <img id="pic1" class="img-right" src="images/English_language.svg" alt="UK/US">
