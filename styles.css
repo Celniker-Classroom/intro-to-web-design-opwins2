@@ -48,16 +48,16 @@ body {
 
 
 a:link {
-  color: #6c252d;
+  color: #db182f;
   text-decoration: none;
 }
 
 a:visited {
-  color: #041b15;
+  color: #a01334;
 }
 
 a:hover {
-  color: #3d0814;
+  color: #a01334;
   text-decoration: underline;
 }
 
